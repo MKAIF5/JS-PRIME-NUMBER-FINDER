@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 224, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.h1 h1{
+    font-size: 40px;
+    color: rgb(31, 145, 31);
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.para p{
+    font-size: 40px;
+    color: rgb(58, 117, 58);
+    font-family: sans-serif;
+}
