@@ -1,63 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(207, 224, 159);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+body {
+  background-color: rgb(207, 224, 159);
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
 }
 
-
-.h1 h1{
-    font-size: 40px;
-    color: rgb(31, 145, 31);
-    font-family: sans-serif;
-    font-weight: 800;
+.h1 h1 {
+  font-size: 40px;
+  color: rgb(31, 145, 31);
+  font-family: sans-serif;
+  font-weight: 800;
 }
 
-.para p{
-    font-size: 40px;
-    color: rgb(58, 117, 58);
-    font-family: sans-serif;
+.para p {
+  font-size: 40px;
+  color: rgb(58, 117, 58);
+  font-family: sans-serif;
 }
 
-input{
-    height: 50px; 
-    width: 400px; 
-    border: 2px solid rgb(14, 112, 14); 
-    border-radius: 15px; 
-    text-align: center; 
-    font-size: 15px; 
+input {
+  height: 50px;
+  width: 400px;
+  border: 2px solid rgb(14, 112, 14);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
 }
 
-.btn-1{
-    width: 100px; 
-    height: 30px; 
-    background: green; 
-    border-radius: 15px; 
-    color: whitesmoke; 
-    text-align: center; 
-    padding: 3px; 
-    border: none; 
+.btn-1 {
+  width: 100px;
+  height: 30px;
+  background: green;
+  border-radius: 15px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
 }
 
-.btn-2{
-    width: 100px; 
-    height: 30px; 
-    background: green; 
-    border-radius: 15px; 
-    color: whitesmoke; 
-    text-align: center; 
-    padding: 3px; 
-    border: none; 
+.btn-2 {
+  width: 100px;
+  height: 30px;
+  background: green;
+  border-radius: 15px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
 }
 
-.para-text { 
-    padding: 20px; 
-} 
+.message {
+  width: 30rem;
+  background-color: rgb(47, 71, 11);
+  height: 75px;
+  text-align: center;
+  color: antiquewhite;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
+.para-text {
+  padding: 20px;
+}
