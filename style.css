@@ -25,3 +25,39 @@ body{
     color: rgb(58, 117, 58);
     font-family: sans-serif;
 }
+
+input{
+    height: 50px; 
+    width: 400px; 
+    border: 2px solid rgb(14, 112, 14); 
+    border-radius: 15px; 
+    text-align: center; 
+    font-size: 15px; 
+}
+
+.btn-1{
+    width: 100px; 
+    height: 30px; 
+    background: green; 
+    border-radius: 15px; 
+    color: whitesmoke; 
+    text-align: center; 
+    padding: 3px; 
+    border: none; 
+}
+
+.btn-2{
+    width: 100px; 
+    height: 30px; 
+    background: green; 
+    border-radius: 15px; 
+    color: whitesmoke; 
+    text-align: center; 
+    padding: 3px; 
+    border: none; 
+}
+
+.para-text { 
+    padding: 20px; 
+} 
+
