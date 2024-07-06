@@ -1,27 +1,35 @@
-function checkPrime(num){
-    if(num <= 1){
-      return false
+function checkPrime(num) {
+    if (num <= 1) {
+        return false;
     }
+    for (
+        let i = 2;
+        i <= Math.sqrt(num); i++
+    ) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
 }
 
-for(let i=2; i<= Math.sqrt(num) ; i++){
-    if(num % i === 0){
-        return false
+document.getElementById("submit").addEventListener("click", (event) => {
+    event.preventDefault()
+    let num =
+        document.getElementById("inp").value;
+    let result = checkPrime(num);
+
+    if (result) {
+        document.getElementById("dom-msg").innerHTML =
+            num + " Is A Prime Number";
+    } else {
+        document.getElementById("dom-msg").innerHTML =
+            num + " Is Not A Prime Number";
     }
-    return true
 }
-
-const submit  = document.getElementById("submit");
-const answer = document.getElementById("dom-msg");
-submit.addEventListener("click" , () =>{
-    const inp = document.getElementById("inp");
-    const result = checkPrime(inp);
-     
-    if(result){
-        answer.innerHTML = num + "Is A Prime Number"
-    }
-
-    else{
-        answer.innerHTML = num + "Is Not A Prime Number"
-    }
-})
+);
+document.getElementById("clear")
+    .addEventListener("click", () => {
+        document.getElementById("inp").value = "";
+        document.getElementById("dom-msg").innerHTML = "Result";
+    })
